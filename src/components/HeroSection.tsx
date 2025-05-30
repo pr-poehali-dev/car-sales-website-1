@@ -5,27 +5,27 @@ import Icon from "@/components/ui/icon";
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-violet-50 via-white to-purple-50 py-20">
+    <section className="relative bg-gradient-to-br from-orange-50 via-white to-red-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Левая колонка с текстом */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <Badge className="bg-violet-100 text-violet-700 border-violet-200">
+              <Badge className="bg-orange-100 text-orange-700 border-orange-200">
                 <Icon name="Sparkles" size={14} className="mr-1" />
-                Более 10,000 автомобилей
+                Более 5,000 мотоциклов
               </Badge>
 
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Найдите идеальный
-                <span className="bg-gradient-to-r from-violet-600 to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                   {" "}
-                  автомобиль
+                  мотоцикл
                 </span>
               </h1>
 
               <p className="text-xl text-gray-600 max-w-lg">
-                Тысячи проверенных автомобилей от надежных продавцов. Быстрый
+                Тысячи проверенных мотоциклов от надежных продавцов. Быстрый
                 поиск, честные цены, безопасные сделки.
               </p>
             </div>
@@ -37,32 +37,32 @@ const HeroSection = () => {
                   <label className="text-sm font-medium text-gray-700">
                     Марка
                   </label>
-                  <Input placeholder="Выберите марку" />
+                  <Input placeholder="Yamaha, Honda, BMW..." />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    Модель
+                    Тип
                   </label>
-                  <Input placeholder="Выберите модель" />
+                  <Input placeholder="Спорт, круизер, эндуро..." />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    Цена до
+                    Объем, см³
                   </label>
-                  <Input placeholder="3 000 000 ₽" />
+                  <Input placeholder="600-1000" />
                 </div>
               </div>
-              <Button className="w-full mt-6 bg-gradient-to-r from-violet-500 to-purple-600 hover:from-violet-600 hover:to-purple-700 h-12">
+              <Button className="w-full mt-6 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 h-12">
                 <Icon name="Search" size={18} className="mr-2" />
-                Найти автомобиль
+                Найти мотоцикл
               </Button>
             </div>
 
             {/* Статистика */}
             <div className="grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-gray-900">10K+</div>
-                <div className="text-sm text-gray-600">Автомобилей</div>
+                <div className="text-2xl font-bold text-gray-900">5K+</div>
+                <div className="text-sm text-gray-600">Мотоциклов</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900">500+</div>
@@ -79,8 +79,8 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&h=400&fit=crop"
-                alt="Современный автомобиль"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+                alt="Спортивный мотоцикл"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>

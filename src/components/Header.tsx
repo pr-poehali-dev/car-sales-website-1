@@ -8,10 +8,10 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Логотип */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <Icon name="Car" size={18} className="text-white" />
+            <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
+              <Icon name="Bike" size={18} className="text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">AutoHub</span>
+            <span className="text-xl font-bold text-gray-900">MotoHub</span>
           </div>
 
           {/* Навигация */}
@@ -52,7 +52,7 @@ const Header = () => {
               size="sm"
               className="bg-gradient-to-r from-violet-500 to-purple-600 hover:from-violet-600 hover:to-purple-700"
             >
-              Продать авто
+              Продать мотоцикл
             </Button>
           </div>
         </div>

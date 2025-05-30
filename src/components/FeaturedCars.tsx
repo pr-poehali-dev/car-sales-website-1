@@ -4,37 +4,37 @@ const FeaturedCars = () => {
   const cars = [
     {
       image:
-        "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=300&fit=crop",
-      brand: "BMW",
-      model: "X5",
-      year: 2022,
-      price: "4 500 000 ₽",
-      mileage: "15 000 км",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      brand: "Yamaha",
+      model: "YZF-R1",
+      year: 2023,
+      price: "1 850 000 ₽",
+      mileage: "2 500 км",
       fuelType: "Бензин",
-      transmission: "Автомат",
+      transmission: "6 передач",
       isNew: true,
     },
     {
       image:
-        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop",
-      brand: "Mercedes-Benz",
-      model: "E-Class",
-      year: 2021,
-      price: "3 200 000 ₽",
-      mileage: "25 000 км",
-      fuelType: "Дизель",
-      transmission: "Автомат",
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop",
+      brand: "BMW",
+      model: "R 1250 GS",
+      year: 2022,
+      price: "2 200 000 ₽",
+      mileage: "8 000 км",
+      fuelType: "Бензин",
+      transmission: "6 передач",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop",
-      brand: "Audi",
-      model: "Q7",
-      year: 2023,
-      price: "5 100 000 ₽",
-      mileage: "5 000 км",
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=400&h=300&fit=crop",
+      brand: "Honda",
+      model: "CBR1000RR",
+      year: 2024,
+      price: "1 650 000 ₽",
+      mileage: "500 км",
       fuelType: "Бензин",
-      transmission: "Автомат",
+      transmission: "6 передач",
       isNew: true,
     },
   ];
@@ -44,10 +44,10 @@ const FeaturedCars = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-            Рекомендуемые автомобили
+            Рекомендуемые мотоциклы
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Тщательно отобранные автомобили от проверенных продавцов с гарантией
+            Тщательно отобранные мотоциклы от проверенных продавцов с гарантией
             качества
           </p>
         </div>
